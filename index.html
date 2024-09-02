@@ -5,16 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página de Receitas</title>
     <link rel="stylesheet" href="style.css">
+   
 </head>
 <body>
-    <main>
-        <header>
-            <h1 id="tituloCabecalho">Site de Receitas</h1>
-            <label for="pesquisa">
-                <input type="text">
-                <input type="button" value="buscar">
-            </label>
-        </header>
+    <header>
+        <h1 id="tituloCabecalho">Site de Receitas</h1>
+        <div class="div-busca">
+            <input type="text" id="pesquisa" placeholder="Buscar receitas...">
+            <input type="button" value="Buscar">
+        </div>
+    </header>
+    
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#receitas">Receitas</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <main class="conteudo-principal">
+        <section class="receita-destaque">
+            <h2>Receita em Destaque</h2>
+            <div class="cartao-receita">
+                <h2>Pudim de caneca</h2>
+                <p>Receita simples de um delicioso pudim de caneca.</p>
+                <a href="#">Leia mais</a>
+            </div>
+        </section>
+
+        <section class="lista-receita">
+            <h2>Outras Receitas</h2>
+            <div class="cartao-receita">
+                <h2>Bolo de cenoura</h2>
+                <p>Receita de um bolo de cenoura com cobertura de chocolate.</p>
+                <a href="#">Leia mais</a>
+            </div>
+            <div class="cartao-receita">
+                <h2>Pizza de frigideira</h2>
+                <p>Receita fácil de uma pizza de frigideira.</p>
+                <a href="#">Leia mais</a>
+            </div>
+            <!-- Adicione mais cartões de receita conforme necessário -->
+        </section>
     </main>
+
+    <footer>
+        <p>&copy; 2024 Site de Receitas. Henrique Jeremias.</p>
+    </footer>
 </body>
 </html>
