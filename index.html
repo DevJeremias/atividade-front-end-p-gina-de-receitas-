@@ -5,19 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página de Receitas</title>
     <link rel="stylesheet" href="style.css">
-   
 </head>
 <body>
     <header>
-        <h1 id="tituloCabecalho">Site de Receitas</h1>
+        <h1>Receitas Deliciosas</h1>
         <div class="div-busca">
             <input type="text" id="pesquisa" placeholder="Buscar receitas...">
-            <input type="button" value="Buscar">
+            <button>Buscar</button>
         </div>
     </header>
     
     <nav>
-        <a href="index.html">Inicio</a>
+        <a href="index.html">Início</a>
         <a href="sobre.html">Sobre</a>
         <a href="contato.html">Contato</a>
     </nav>
@@ -25,34 +24,49 @@
     <main class="conteudo-principal">
         <section class="receita-destaque">
             <h2>Receita em Destaque</h2>
-            <div class="cartao-receita">
-                <h2>Pudim de caneca</h2>
-                <p>Receita simples de um delicioso pudim de caneca.</p>
-                <a href="receita1.html">Leia mais</a>
-                <img src="imgs/pudim-caneca.jpg" alt="Pudim de caneca" class="mini-imagem-receita">
+            <div class="cartao-receita destaque">
+                <img src="imgs/pudim-caneca.jpg" alt="Pudim de Caneca">
+                <div class="info-receita">
+                    <h3>Pudim de Caneca</h3>
+                    <p>Receita simples de um delicioso pudim de caneca.</p>
+                    <a href="receita1.html" class="btn">Leia mais</a>
+                </div>
             </div>
         </section>
 
         <section class="lista-receita">
             <h2>Outras Receitas</h2>
-            <div class="cartao-receita">
-                <h2>Bolo de cenoura</h2>
-                <p>Receita de um bolo de cenoura com cobertura de chocolate.</p>
-                <a href="receita2.html">Leia mais</a>
-                <img src="imgs/bolo-cenoura.jpg" alt="Bolo de Cenoura" class="mini-imagem-receita">
+            <div class="grid-receitas">
+                <div class="cartao-receita">
+                    <img src="imgs/bolo-cenoura.jpg" alt="Bolo de Cenoura">
+                    <div class="info-receita">
+                        <h3>Bolo de Cenoura</h3>
+                        <p>Bolo de cenoura com cobertura de chocolate.</p>
+                        <a href="receita2.html" class="btn">Leia mais</a>
+                    </div>
+                </div>
+                <div class="cartao-receita">
+                    <img src="imgs/pizza-frigideira.jpg" alt="Pizza de Frigideira">
+                    <div class="info-receita">
+                        <h3>Pizza de Frigideira</h3>
+                        <p>Pizza fácil de preparar na frigideira.</p>
+                        <a href="receita3.html" class="btn">Leia mais</a>
+                    </div>
+                </div>
+                <div class="cartao-receita">
+                    <img src="imgs/pudim-caneca.jpg" alt="Pudim de Caneca">
+                    <div class="info-receita">
+                        <h3>Pudim de Caneca</h3>
+                        <p>Receita rápida de pudim de caneca.</p>
+                        <a href="receita1.html" class="btn">Leia mais</a>
+                    </div>
+                </div>
             </div>
-            <div class="cartao-receita">
-                <h2>Pizza de frigideira</h2>
-                <p>Receita fácil de uma pizza de frigideira.</p>
-                <a href="receita3.html">Leia mais</a>
-                <img src="imgs/pizza-frigideira.jpg" alt="Pizza de frigideira" class="mini-imagem-receita">
-            </div>
-            <!-- Adicione mais cartões de receita conforme necessário -->
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2024 Site de Receitas. Henrique Jeremias.</p>
+        <p>&copy; 2024 Receitas Deliciosas. Todos os direitos reservados.</p>
     </footer>
 </body>
 </html>
