@@ -1,0 +1,128 @@
+/* receita.css */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #ff6f61;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5em;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+.div-busca {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.div-busca input[type="text"] {
+    padding: 10px;
+    width: 250px;
+    border: 2px solid #ff6f61;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.div-busca button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.div-busca button:hover {
+    background-color: #ff6f61;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ff6f61;
+}
+
+.conteudo-principal {
+    padding: 30px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.detalhes-receita {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.detalhes-receita h2, .detalhes-receita h3 {
+    color: #ff6f61;
+}
+
+.detalhes-receita h3 {
+    margin-top: 20px;
+    font-size: 1.8em;
+}
+
+.detalhes-receita h4 {
+    margin-top: 10px;
+    font-size: 1.4em;
+}
+
+.detalhes-receita ul, .detalhes-receita ol {
+    margin: 10px 0;
+    padding: 0 20px;
+}
+
+.imagem-receita {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+.video-receita {
+    text-align: center;
+}
+
+video-receita iframe {
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+    font-size: 0.9em;
+}

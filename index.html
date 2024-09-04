@@ -11,7 +11,7 @@
         <h1>Receitas Deliciosas</h1>
         <div class="div-busca">
             <input type="text" id="pesquisa" placeholder="Buscar receitas...">
-            <button>Buscar</button>
+            <button id="buscar-btn">Buscar</button>
         </div>
     </header>
     
@@ -24,7 +24,7 @@
     <main class="conteudo-principal">
         <section class="receita-destaque">
             <h2>Receita em Destaque</h2>
-            <div class="cartao-receita destaque">
+            <div class="cartao-receita destaque" data-tags="pudim, sobremesa, caneca">
                 <img src="imgs/pudim-caneca.jpg" alt="Pudim de Caneca">
                 <div class="info-receita">
                     <h3>Pudim de Caneca</h3>
@@ -37,7 +37,7 @@
         <section class="lista-receita">
             <h2>Outras Receitas</h2>
             <div class="grid-receitas">
-                <div class="cartao-receita">
+                <div class="cartao-receita" data-tags="bolo, cenoura, chocolate">
                     <img src="imgs/bolo-cenoura.jpg" alt="Bolo de Cenoura">
                     <div class="info-receita">
                         <h3>Bolo de Cenoura</h3>
@@ -45,7 +45,7 @@
                         <a href="receita2.html" class="btn">Leia mais</a>
                     </div>
                 </div>
-                <div class="cartao-receita">
+                <div class="cartao-receita" data-tags="pizza, frigideira, rápida">
                     <img src="imgs/pizza-frigideira.jpg" alt="Pizza de Frigideira">
                     <div class="info-receita">
                         <h3>Pizza de Frigideira</h3>
@@ -53,7 +53,7 @@
                         <a href="receita3.html" class="btn">Leia mais</a>
                     </div>
                 </div>
-                <div class="cartao-receita">
+                <div class="cartao-receita" data-tags="pudim, caneca, rápido">
                     <img src="imgs/pudim-caneca.jpg" alt="Pudim de Caneca">
                     <div class="info-receita">
                         <h3>Pudim de Caneca</h3>
@@ -66,7 +66,9 @@
     </main>
 
     <footer>
-        <p>&copy; 2024 Receitas Deliciosas. Todos os direitos reservados.</p>
+        <p>&copy; 2024 Receitas Deliciosas. Henrique Jeremias.</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>

@@ -3,37 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página de Receitas</title>
+    <title>Sobre - Receitas Deliciosas</title>
     <link rel="stylesheet" href="style.css">
-   
 </head>
 <body>
     <header>
-        <h1 id="tituloCabecalho">Site de Receitas</h1>
-        <div class="div-busca">
-            <input type="text" id="pesquisa" placeholder="Buscar receitas...">
-            <input type="button" value="Buscar">
-        </div>
+        <h1>Receitas Deliciosas</h1>
     </header>
     
     <nav>
-        <a href="index.html">Inicio</a>
+        <a href="index.html">Início</a>
         <a href="sobre.html">Sobre</a>
         <a href="contato.html">Contato</a>
     </nav>
 
     <main class="conteudo-principal">
         <section>
-            <h1>Sobre o Site de Receitas</h1>
-            <p>Este é um site desenvolvido para uma atividade de frontend, com o propósito de apresentar um simples site html com o conteúdo de um site de receitas.</p>
-            <ol><li>
-                Desenvolvido por Henrique Jeremias.
-            </li></ol>
+            <h1>Sobre o Site "Receitas Deliciosas"</h1>
+            <p>Olá, eu sou Henrique Jeremias e vou explicar como eu desenvolvi o site "Receitas Deliciosas". Este projeto foi criado com o objetivo de apresentar um site funcional e visualmente atraente para compartilhar receitas.</p>
+            
+            <h2>1. Estrutura HTML</h2>
+            <p>O site é composto por três páginas principais:</p>
+            <ul>
+                <li><strong>Página Inicial</strong>: Exibe receitas em destaque e outras receitas.</li>
+                <li><strong>Sobre</strong>: Fornece informações sobre o site e o desenvolvedor.</li>
+                <li><strong>Contato</strong>: Oferece um link para meu perfil no GitHub para contato.</li>
+            </ul>
+            <p>Cada página segue uma estrutura HTML básica, incluindo um <code>&lt;header&gt;</code> com um título e uma barra de busca, uma <code>&lt;nav&gt;</code> para navegação entre as páginas, um <code>&lt;main&gt;</code> para o conteúdo principal e um <code>&lt;footer&gt;</code> com informações de direitos autorais.</p>
+            
+            <h2>2. Design e Layout</h2>
+            <p>O design do site é moderno e limpo, utilizando CSS para garantir uma aparência atraente:</p>
+            <ul>
+                <li><strong>Header</strong>: Fundo coral com texto branco e barra de busca centralizada.</li>
+                <li><strong>Nav</strong>: Menu de navegação com fundo escuro e texto branco, que muda de cor ao passar o mouse.</li>
+                <li><strong>Conteúdo Principal</strong>: Seções organizadas com cartões de receita e uma grade para facilitar a visualização.</li>
+                <li><strong>Footer</strong>: Fundo escuro com texto branco, proporcionando uma conclusão visual limpa.</li>
+            </ul>
+            
+            <h2>3. Funcionalidade da Barra de Busca</h2>
+            <p>A barra de busca utiliza JavaScript para filtrar receitas com base no texto inserido:</p>
+            <ul>
+                <li><strong>HTML</strong>: Cada cartão de receita tem um atributo <code>data-tags</code> com palavras-chave.</li>
+                <li><strong>JavaScript</strong>: O script filtra os cartões de receita para mostrar apenas os que correspondem à busca. Também permite buscar ao pressionar Enter.</li>
+            </ul>
+            
+            <h2>4. Estilo e Responsividade</h2>
+            <p>A folha de estilos CSS garante:</p>
+            <ul>
+                <li><strong>Fonte e Cores</strong>: Fontes modernas e cores que criam um contraste agradável e mantêm a legibilidade.</li>
+                <li><strong>Layout Responsivo</strong>: Design ajustável para diferentes tamanhos de tela.</li>
+            </ul>
+            
+            <h2>5. Considerações Finais</h2>
+            <p>O site "Receitas Deliciosas" foi desenvolvido com simplicidade e funcionalidade em mente. O HTML, CSS e JavaScript proporcionam uma experiência de usuário agradável e uma interface intuitiva. Espero que você goste do site e encontre muitas receitas deliciosas!</p>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2024 Site de Receitas. Henrique Jeremias.</p>
+        <p>&copy; 2024 Receitas Deliciosas. Henrique Jeremias.</p>
     </footer>
 </body>
 </html>
