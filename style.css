@@ -1,4 +1,4 @@
-/* principal.css */
+
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #fafafa;
@@ -10,22 +10,35 @@ body {
 header {
     background-color: #ff6f61;
     color: white;
-    text-align: center;
-    padding: 30px 20px;
+    padding: 20px 0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-header h1 {
-    font-family: 'Playfair Display', serif;
-    font-size: 3em;
-    margin: 0;
-    letter-spacing: 2px;
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 20px;
+}
+
+.logo-link {
+    text-decoration: none;
+}
+
+.imagem-logo {
+    max-width: 70px;
+    height: auto;
 }
 
 .div-busca {
-    margin-top: 20px;
     display: flex;
-    justify-content: center;
+    align-items: center;
     gap: 10px;
 }
 
@@ -40,7 +53,7 @@ header h1 {
 .div-busca button {
     background-color: #333;
     color: white;
-    padding: 12px 25px;
+    padding: 12px 20px;
     border: none;
     border-radius: 25px;
     font-size: 16px;
@@ -50,6 +63,14 @@ header h1 {
 
 .div-busca button:hover {
     background-color: #ff6f61;
+}
+
+header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3em;
+    margin: 20px 0 0 0;
+    letter-spacing: 2px;
+    text-align: center;
 }
 
 nav {
