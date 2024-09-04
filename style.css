@@ -33,7 +33,7 @@ header h1 {
     padding: 12px;
     width: 300px;
     border: 2px solid #ff6f61;
-    border-radius: 5px;
+    border-radius: 25px;
     font-size: 16px;
 }
 
@@ -42,7 +42,7 @@ header h1 {
     color: white;
     padding: 12px 25px;
     border: none;
-    border-radius: 5px;
+    border-radius: 25px;
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s ease;
